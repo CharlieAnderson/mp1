@@ -198,7 +198,7 @@ begin : state_actions
 		
 		s_stb1: begin
 			storemux_sel = 1;	
-			aluop = alu_pass;
+			aluop = alu_pass; //copy bits to both bytes??
 			load_mdr = 1;
 		end
 		
@@ -252,7 +252,7 @@ begin : state_actions
 		
 		shf: begin
 			load_cc = 1;
-			load_regfile = 1;	
+			load_regfile = 1;		//alumux imm4 zext?
 			if(D_bit == 0)
 				aluop = alu_sll;
 			else begin
@@ -315,16 +315,14 @@ begin : state_actions
 		end
 		
 		trap2:  begin				
-			load_pc = 1;
-			pcmux_sel = 3'b100;
-			marmux_sel = 2'b01;
 			load_mar = 1;
-			
+			marmux_sel = 2'b10;
+
 		end
 		
 		trap3: begin
 			mem_read = 1;
-			mdrmux_sel = 1;
+			mdrmux_sel = 1b'1;
 			load_mdr = 1;
 			
 		end
@@ -332,8 +330,6 @@ begin : state_actions
 		trap4: begin
 			load_pc = 1;
 			pcmux_sel = 3'b010;
-			load_regfile = 1;
-			regfilemux_sel = 3'b001;
 			
 		end
 		default: /* Do nothing */;
@@ -590,7 +586,7 @@ begin : next_state_logic
 			next_state = fetch1;
 		end
 		
-		jsr: begin 
+		jsr: begin //store pc first?
 			next_state = fetch1;
 		end
 		
