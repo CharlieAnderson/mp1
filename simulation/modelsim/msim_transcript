@@ -1,0 +1,524 @@
+# do mp1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /software/altera/13.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /software/altera/13.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/lc3b_types.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package lc3b_types
+# 
+# Top level modules:
+# 	--none--
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/plus2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module plus2
+# 
+# Top level modules:
+# 	plus2
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/register.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/mux2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/nzp_comp.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module nzp_comp
+# 
+# Top level modules:
+# 	nzp_comp
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/mux3.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	mux3
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/mux4.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/mux8.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux8
+# 
+# Top level modules:
+# 	mux8
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/zext.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package zext_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module zext
+# 
+# Top level modules:
+# 	zext
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/adj.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package adj_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module adj
+# 
+# Top level modules:
+# 	adj
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/alu.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package alu_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package control_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/gencc.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package gencc_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module gencc
+# 
+# Top level modules:
+# 	gencc
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/ir.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package ir_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module ir
+# 
+# Top level modules:
+# 	ir
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/regfile.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package regfile_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/sext.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package sext_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module sext
+# 
+# Top level modules:
+# 	sext
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/zextadj.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package zextadj_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module zextadj
+# 
+# Top level modules:
+# 	zextadj
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/mp1.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package mp1_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module mp1
+# 
+# Top level modules:
+# 	mp1
+# 
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/mp1_tb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mp1_tb
+# 
+# Top level modules:
+# 	mp1_tb
+# vlog -sv -work work +incdir+/home/cmndrsn2/ece411/mp1 {/home/cmndrsn2/ece411/mp1/memory.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L stratixiii_ver -L rtl_work -L work -voptargs="+acc"  mp1_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L stratixiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mp1_tb 
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.lc3b_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.mux8
+# Loading work.register
+# Loading work.mux4
+# Loading work.mux3
+# Loading work.plus2
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.nzp_comp
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.sext_sv_unit
+# Loading work.sext
+# Loading work.zext_sv_unit
+# Loading work.zext
+# Loading work.zextadj_sv_unit
+# Loading work.zextadj
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'f'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'g'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'h'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(119): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'sel'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux4.sv(3).
+#         Region: /mp1_tb/dut/data/storemux
+# ** Warning: (vsim-3017) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Too few port connections. Expected 17, found 15.
+#         Region: /mp1_tb/dut/data/IR
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'imm4'.
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'trapvector'.
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(294): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'd'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/alumux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (5 or 5) does not match connection size (4) for port 'in'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(8).
+#         Region: /mp1_tb/dut/data/imm4_zext
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'out'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(9).
+#         Region: /mp1_tb/dut/data/imm4_zext
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+restart -f
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.lc3b_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.mux8
+# Loading work.register
+# Loading work.mux4
+# Loading work.mux3
+# Loading work.plus2
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.nzp_comp
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.sext_sv_unit
+# Loading work.sext
+# Loading work.zext_sv_unit
+# Loading work.zext
+# Loading work.zextadj_sv_unit
+# Loading work.zextadj
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'f'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'g'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'h'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(119): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'sel'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux4.sv(3).
+#         Region: /mp1_tb/dut/data/storemux
+# ** Warning: (vsim-3017) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Too few port connections. Expected 17, found 15.
+#         Region: /mp1_tb/dut/data/IR
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'imm4'.
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'trapvector'.
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(294): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'd'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/alumux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (5 or 5) does not match connection size (4) for port 'in'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(8).
+#         Region: /mp1_tb/dut/data/imm4_zext
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'out'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(9).
+#         Region: /mp1_tb/dut/data/imm4_zext
+run 10000 ns
+add wave -position end  sim:/mp1_tb/dut/data/regfile/data
+restart -f
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.lc3b_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.mux8
+# Loading work.register
+# Loading work.mux4
+# Loading work.mux3
+# Loading work.plus2
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.nzp_comp
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.sext_sv_unit
+# Loading work.sext
+# Loading work.zext_sv_unit
+# Loading work.zext
+# Loading work.zextadj_sv_unit
+# Loading work.zextadj
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'f'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'g'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'h'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(119): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'sel'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux4.sv(3).
+#         Region: /mp1_tb/dut/data/storemux
+# ** Warning: (vsim-3017) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Too few port connections. Expected 17, found 15.
+#         Region: /mp1_tb/dut/data/IR
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'imm4'.
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'trapvector'.
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(294): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'd'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/alumux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (5 or 5) does not match connection size (4) for port 'in'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(8).
+#         Region: /mp1_tb/dut/data/imm4_zext
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'out'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(9).
+#         Region: /mp1_tb/dut/data/imm4_zext
+run 10000 ns
+reset -f
+# /usr/bin/reset: invalid option -- 'f'
+# Usage: tset [options] [terminal]
+# 
+# Options:
+#   -c          set control characters
+#   -e ch       erase character
+#   -I          no initialization strings
+#   -i ch       interrupt character
+#   -k ch       kill character
+#   -m mapping  map identifier to type
+#   -Q          do not output control key settings
+#   -r          display term on stderr
+#   -s          output TERM set command
+#   -V          print curses-version
+#   -w          set window-size
+# 
+restart -f
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.lc3b_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.mux8
+# Loading work.register
+# Loading work.mux4
+# Loading work.mux3
+# Loading work.plus2
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.nzp_comp
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.sext_sv_unit
+# Loading work.sext
+# Loading work.zext_sv_unit
+# Loading work.zext
+# Loading work.zextadj_sv_unit
+# Loading work.zextadj
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'f'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'g'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'h'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(119): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'sel'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux4.sv(3).
+#         Region: /mp1_tb/dut/data/storemux
+# ** Warning: (vsim-3017) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Too few port connections. Expected 17, found 15.
+#         Region: /mp1_tb/dut/data/IR
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'imm4'.
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'trapvector'.
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(294): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'd'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/alumux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (5 or 5) does not match connection size (4) for port 'in'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(8).
+#         Region: /mp1_tb/dut/data/imm4_zext
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'out'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(9).
+#         Region: /mp1_tb/dut/data/imm4_zext
+run 3000 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+add wave -position end  sim:/mp1_tb/dut/Control/state
+restart -f
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.lc3b_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.mux8
+# Loading work.register
+# Loading work.mux4
+# Loading work.mux3
+# Loading work.plus2
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.nzp_comp
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.sext_sv_unit
+# Loading work.sext
+# Loading work.zext_sv_unit
+# Loading work.zext
+# Loading work.zextadj_sv_unit
+# Loading work.zextadj
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'f'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'g'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'h'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(119): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'sel'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux4.sv(3).
+#         Region: /mp1_tb/dut/data/storemux
+# ** Warning: (vsim-3017) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Too few port connections. Expected 17, found 15.
+#         Region: /mp1_tb/dut/data/IR
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'imm4'.
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'trapvector'.
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(294): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'd'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/alumux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (5 or 5) does not match connection size (4) for port 'in'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(8).
+#         Region: /mp1_tb/dut/data/imm4_zext
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'out'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(9).
+#         Region: /mp1_tb/dut/data/imm4_zext
+run 10000 ns
+restart -f
+# Loading sv_std.std
+# Loading work.mp1_tb
+# Loading work.lc3b_types
+# Loading work.mp1_sv_unit
+# Loading work.mp1
+# Loading work.datapath_sv_unit
+# Loading work.datapath
+# Loading work.mux8
+# Loading work.register
+# Loading work.mux4
+# Loading work.mux3
+# Loading work.plus2
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.nzp_comp
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.ir_sv_unit
+# Loading work.ir
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.sext_sv_unit
+# Loading work.sext
+# Loading work.zext_sv_unit
+# Loading work.zext
+# Loading work.zextadj_sv_unit
+# Loading work.zextadj
+# Loading work.control_sv_unit
+# Loading work.control
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'f'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'g'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(101): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'h'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/pcmux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(119): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'sel'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux4.sv(3).
+#         Region: /mp1_tb/dut/data/storemux
+# ** Warning: (vsim-3017) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Too few port connections. Expected 17, found 15.
+#         Region: /mp1_tb/dut/data/IR
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'imm4'.
+# ** Warning: (vsim-3722) /home/cmndrsn2/ece411/mp1/datapath.sv(233): [TFMPC] - Missing connection for port 'trapvector'.
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(294): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'd'. The port definition is at: /home/cmndrsn2/ece411/mp1/mux8.sv(4).
+#         Region: /mp1_tb/dut/data/alumux
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (5 or 5) does not match connection size (4) for port 'in'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(8).
+#         Region: /mp1_tb/dut/data/imm4_zext
+# ** Warning: (vsim-3015) /home/cmndrsn2/ece411/mp1/datapath.sv(300): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'out'. The port definition is at: /home/cmndrsn2/ece411/mp1/zext.sv(9).
+#         Region: /mp1_tb/dut/data/imm4_zext
+run 10000 ns
+run 10000 ns
+run 10000 ns
+run 10000 ns

@@ -1,0 +1,28 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cmndrsn2/ece411/mp1/simulation/modelsim
+vmp1
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 YRIzICDYHY98jFe?4RKNK0
+I8;6I9;FPPm22^bgVT:BUA0
+Vl?`i9MP@<MbHRYAOa9CDF0
+!s105 mp1_2_1100mv_85c_slow_svo_unit
+S1
+Z1 d/home/cmndrsn2/ece411/mp1/simulation/modelsim
+w1473627041
+8mp1_2_1100mv_85c_slow.svo
+Fmp1_2_1100mv_85c_slow.svo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1473627205.765751
+!s107 mp1_2_1100mv_85c_slow.svo|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+.|mp1_2_1100mv_85c_slow.svo|
+!s101 -O0
+o-sv -work work -O0
+!s92 -sv -work work +incdir+. -O0

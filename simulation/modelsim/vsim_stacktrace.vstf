@@ -1,0 +1,661 @@
+# Current time Tue Aug 30 15:37:18 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccd237: '/home/cmndrsn2/ece411/mp0/datapath.sv:72'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6ccbe91: '/home/cmndrsn2/ece411/mp0/mp0.sv:19'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cca40b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Tue Aug 30 15:41:19 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccd237: '/home/cmndrsn2/ece411/mp0/datapath.sv:72'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6ccbe91: '/home/cmndrsn2/ece411/mp0/mp0.sv:19'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cca40b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Tue Aug 30 15:46:37 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccd244: '/home/cmndrsn2/ece411/mp0/datapath.sv:82'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6ccbe91: '/home/cmndrsn2/ece411/mp0/mp0.sv:19'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cca40b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Tue Aug 30 15:55:59 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccd244: '/home/cmndrsn2/ece411/mp0/datapath.sv:82'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6ccbe91: '/home/cmndrsn2/ece411/mp0/mp0.sv:19'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cca40b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Tue Aug 30 16:12:04 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb244: '/home/cmndrsn2/ece411/mp0/datapath.sv:82'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Tue Aug 30 16:34:06 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb1f8: '/home/cmndrsn2/ece411/mp0/datapath.sv:117'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Tue Aug 30 16:36:39 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb160: '/home/cmndrsn2/ece411/mp0/datapath.sv:27'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Tue Aug 30 16:50:11 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb244: '/home/cmndrsn2/ece411/mp0/datapath.sv:82'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Tue Aug 30 18:23:05 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb1c4: '/home/cmndrsn2/ece411/mp0/datapath.sv:88'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Wed Aug 31 13:00:47 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb1c4: '/home/cmndrsn2/ece411/mp0/datapath.sv:88'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Wed Aug 31 13:04:17 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb1c4: '/home/cmndrsn2/ece411/mp0/datapath.sv:88'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Wed Aug 31 13:09:40 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb1c4: '/home/cmndrsn2/ece411/mp0/datapath.sv:88'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Wed Aug 31 13:11:37 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0xf6ccb1c4: '/home/cmndrsn2/ece411/mp0/datapath.sv:88'
+# 2    0x081a7535: '<unknown (@0x81a7535)>'
+# 3    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 4    0x08335145: '<unknown (@0x8335145)>'
+# 5    0x08335cf6: '<unknown (@0x8335cf6)>'
+# 6    0xf6cc9e91: '/home/cmndrsn2/ece411/mp0/mp0.sv:33'
+# 7    0x081a7535: '<unknown (@0x81a7535)>'
+# 8    0x081a77fe: '<unknown (@0x81a77fe)>'
+# 9    0x08335145: '<unknown (@0x8335145)>'
+# 10   0x08335cf6: '<unknown (@0x8335cf6)>'
+# 11   0xf6cc840b: '/home/cmndrsn2/ece411/mp0/mp0_tb.sv:6'
+# 12   0x081a7535: '<unknown (@0x81a7535)>'
+# 13   0x081a77fe: '<unknown (@0x81a77fe)>'
+# 14   0x0837d79b: '<unknown (@0x837d79b)>'
+# 15   0x0837ea45: '<unknown (@0x837ea45)>'
+# 16   0x0868fd7c: '<unknown (@0x868fd7c)>'
+# 17   0x08a49467: '<unknown (@0x8a49467)>'
+# 18   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 19   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 20   0x08a75633: '<unknown (@0x8a75633)>'
+# 21   0x08a4cbac: '<unknown (@0x8a4cbac)>'
+# 22   0x08a4fc5d: '<unknown (@0x8a4fc5d)>'
+# 23   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 24   0x08a7054b: '<unknown (@0x8a7054b)>'
+# 25   0x08a75893: '<unknown (@0x8a75893)>'
+# 26   0x08a4b32c: '<unknown (@0x8a4b32c)>'
+# 27   0x08a52a2d: '<unknown (@0x8a52a2d)>'
+# 28   0x08a4ac19: '<unknown (@0x8a4ac19)>'
+# 29   0x08a4c0ad: '<unknown (@0x8a4c0ad)>'
+# 30   0x087cfb03: '<unknown (@0x87cfb03)>'
+# 31   0x08a8324b: '<unknown (@0x8a8324b)>'
+# 32   0x08aaedc2: '<unknown (@0x8aaedc2)>'
+# 33   0x08a910d0: '<unknown (@0x8a910d0)>'
+# 34   0x08a913ce: '<unknown (@0x8a913ce)>'
+# 35   0x089b70f0: '<unknown (@0x89b70f0)>'
+# 36   0x084a0453: '<unknown (@0x84a0453)>'
+# 37   0x083c75f5: '<unknown (@0x83c75f5)>'
+# 38   0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Thu Sep  1 15:33:36 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# 1    0x083c7ea0: '<unknown (@0x83c7ea0)>'
+# 2    0x08061dc6: '<unknown (@0x8061dc6)>'
+# End of Stack Trace
+
+
+# Current time Thu Sep  1 15:33:36 2016
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = linuxpe
+# 0    0xf7fdc430: '<unknown (@0xf7fdc430)>'
+# End of Stack Trace
+
+

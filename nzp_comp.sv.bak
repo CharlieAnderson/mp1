@@ -1,0 +1,21 @@
+
+import lc3b_types::*;
+
+module nzp_comp
+(
+	input lc3b_nzp cc,
+	input lc3b_reg dest,
+ 	output logic br_enable
+);
+
+always_comb
+begin
+	if((cc[0]==1 && dest[0]==1) || 
+		(cc[1]==1 && dest[1]==1) || 
+		(cc[2]==1 && dest[2]==2))
+		br_enable = 1'b1;
+	else
+		br_enable = 1'b0;
+end
+
+endmodule : nzp_comp
